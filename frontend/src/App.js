@@ -1,9 +1,14 @@
 import React from 'react'
+import Header from './components/Header'
+import Footer from './components/Footer'
+import HomeScreen from './pages/HomeScreen'
 
 const App = () => {
   return (
     <div>
-      <h1> Welcome to Tech-Ops </h1>
+      <Header />
+        <HomeScreen />
+      <Footer />
     </div>
   )
 }
